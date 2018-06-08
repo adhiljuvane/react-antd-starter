@@ -1,0 +1,13 @@
+
+.divForMap{
+  width : 80% ;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  height: 500px ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 3px ;
+  background-image: url("https://2.bp.blogspot.com/-Y2HHF850QMk/WWPsirxckOI/AAAAAAAAy5k/ckFtOo3TbWEAqzYYFt8u8nQNggpXOquHgCLcBGAs/s1600/joseph%2Bseaver%2B1735-roxburyMA-05.png");
+}

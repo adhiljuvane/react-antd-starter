@@ -1,0 +1,133 @@
+.divForCard3{
+  width: 80% ;
+  height: auto ;
+  margin: auto;
+  margin-top: 40px ;
+}
+
+.card3{
+  width: 100% ;
+  height: 100% ;
+  display: flex;
+  flex-direction: column;
+}
+
+.allimages{
+  width: 100% ;
+  height: 300px ;
+  display: flex;
+  flex-direction: row;
+}
+
+.div1in3{
+  height: 100% ;
+  width: 25% ;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://sc01.alicdn.com/kf/HTB15ZaILFXXXXaYXFXXq6xXFXXXe/223029708/HTB15ZaILFXXXXaYXFXXq6xXFXXXe.jpg");
+}
+
+.div1in3:hover{
+  transform: scale(1.2);
+}
+
+.textOndiv1{
+  width : 25% ;
+  height: 100% ;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  z-index: 4 ;
+  font-size: 20px ;
+  font-family: fantasy;
+}
+
+.div2in3{
+  height: 100% ;
+  width: 25% ;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://ernestclothing.com/wp-content/uploads/2016/04/Sleep-when-youre-dead-model-white-t-shirt-600x600.jpg");
+}
+
+.div2in3:hover{
+  transform: scale(1.2);
+}
+
+.div3in3{
+  height: 100% ;
+  width: 20% ;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn.nicobar.com/400/media/images/products/2016/04/NBI001626_27_28_29_NM_21_Shirts_Pondicherry_Shirt_-_Navy_plp_Dec_2015_v1_A46A9056.jpg");
+}
+
+.div3in3:hover{
+  transform: scale(1.2);
+}
+
+.div4in3{
+  height: 100% ;
+  width: 17.247% ;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("http://www.high5store.com/504818-626158-thickbox2/santana-maroon-plain-silk-georgette-saree-with-blouse.jpg");
+}
+
+.div4in3:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (max-width : 670px){
+  .allimages{
+    height: 1200px;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  .div1in3{
+    width: 100% ;
+    height: 25% ;
+    margin: auto;
+  }
+
+  .div2in3{
+    width: 100% ;
+    height: 25% ;
+    margin: auto;
+  }
+
+  .div3in3{
+    width: 100% ;
+    height: 25% ;
+    margin: auto;
+  }
+
+  .div4in3{
+    width: 100% ;
+    height: 25% ;
+    margin: auto;
+  }
+}

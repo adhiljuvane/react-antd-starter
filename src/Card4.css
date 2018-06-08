@@ -1,0 +1,14 @@
+.card4{
+  width : 80% ;
+  margin: auto;
+  margin-top: 40px ;
+  display: flex;
+  padding: 0px ;
+  flex-direction: column;
+}
+
+.divFortextInC4{
+  width: 100% ;
+  display: flex;
+  justify-content: center;
+}

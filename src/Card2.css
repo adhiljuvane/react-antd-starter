@@ -1,0 +1,101 @@
+.divForCard2{
+  height: 400px ;
+  width : 80% ;
+  margin: auto;
+  margin-top: 40px ;
+}
+
+.card2{
+  width: 100% ;
+  height: auto ;
+}
+
+.allimagesIn2{
+  width: 100% ;
+  height: 300px ;
+  display: flex;
+  flex-direction: row;
+}
+
+.div1in2{
+  height: 100% ;
+  width: 25% ;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn.thesolesupplier.co.uk/2017/08/NIKE-Logo.jpg");
+}
+
+.div1in2:hover{
+  transform: scale(1.2);
+}
+
+.div2in2{
+  height: 100% ;
+  width: 25% ;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://img.grouponcdn.com/coupons/eib4MvrFP1CMU45LgfHxYV/adidas-highres-500x500");
+}
+
+.div2in2:hover{
+  transform: scale(1.2);
+}
+
+.div3in2{
+  height: 100% ;
+  width: 20% ;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://cdn.thingiverse.com/renders/08/c8/e7/c0/45/5d54f02a5fb2246c3058171b3dd19f1b_preview_featured.jpg");
+}
+
+.div3in2:hover{
+  transform: scale(1.2);
+}
+
+.div4in2{
+  height: 100% ;
+  width: 20% ;
+  margin: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("https://vignette.wikia.nocookie.net/logopedia/images/8/8e/Levi%27s_%28Print%29.svg/revision/latest?cb=20180315130225");
+}
+
+.div4in2:hover{
+  transform: scale(1.2);
+}
+
+@media screen and (max-width : 670px){
+    .allimagesIn2{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .div1in2{
+      width : 100% ;
+      height: 25% ;
+    }
+
+    .div2in2{
+      width : 100% ;
+      height: 25% ;
+    }
+
+    .div3in2{
+      width : 100% ;
+      height: 20% ;
+    }
+
+    .div4in2{
+      width : 100% ;
+      height: 20% ;
+    }
+}
